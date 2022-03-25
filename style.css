@@ -1,0 +1,8 @@
+body {
+    background-image:linear-gradient(to left,rgb(119, 119, 245),black);
+    font-family: 'League Gothic', sans-serif;
+
+}
+p{
+    color: rgb(255, 255, 255);
+}
