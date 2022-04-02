@@ -6,3 +6,40 @@ body {
 p{
     color: rgb(255, 255, 255);
 }
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(34, 22, 41);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(226, 228, 216);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  background-color: #9759e9;
+}
+
+
+#mybox {
+    width: 400px;
+    height: 400px;
+background-color:blueviolet
+}
