@@ -1,13 +1,10 @@
 body {
-    background-image:linear-gradient(to left,rgb(119, 119, 245),black);
-    font-family: 'League Gothic', sans-serif;
-
+  background-image: linear-gradient(to left, rgb(119, 119, 245), black);
+  font-family: "League Gothic", sans-serif;
 }
-p{
-    color: rgb(255, 255, 255);
+p {
+  color: rgb(255, 255, 255);
 }
-
-
 
 ul {
   list-style-type: none;
@@ -37,9 +34,18 @@ li a:hover:not(.active) {
   background-color: #9759e9;
 }
 
-
 #mybox {
-    width: 400px;
-    height: 400px;
-background-color:blueviolet
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+}
+
+#myfloat {
+  float: right;
+}
+
+#profilepic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }

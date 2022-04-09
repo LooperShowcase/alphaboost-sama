@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
-       
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
+      rel="stylesheet"
+    />
 
     <title>sign up</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="#news">about</a></li>
-        <li><a href="#contact">more photos and videos</a></li>
-        <li><a href="signup.html">sign-up</a></li>
-      </ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="#contact">more photos and videos</a></li>
+      <li><a href="signup.html">sign-up</a></li>
+      <li id="myfloat">
+        <input onchange="changeBG()" id="BGcolor" type="color" />
+      </li>
+      <li id="myfloat">
+        <img
+          id="profilepic"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          alt=""
+        />
+      </li>
+    </ul>
 
 
-<center>
-     <h1> welcome to my website</h1>
-      <h2> here sign up</h2>
+
+    <center>
+      <h1>welcome to my website</h1>
+      <h2>here sign up</h2>
 
       <div>
-          <form>
+        <form>
+          <label for="fname">first name:</label>
+          <input type="text" />
 
-<label for="fname">first name:</label>
-<input type="text">
+          <label for="fname">last name:</label>
+          <input type="text" />
+          <br />
+          <br />
+          <br />
+          <label for="fname">female</label>
+          <input type="radio" />
 
-<label for="fname">last name:</label>
-<input type="password">
-<br>
-<br>
-<br>
-<label for="fname">female</label>
-<input type="radio">
+          <label for="fname">male</label>
+          <input type="radio" />
+          <br />
+          <br />
+          <br />
 
-<label for="fname">male</label>
-<input type="radio">
-
-
-</form>
+          <label for="fname">you're age:</label>
+          <input type="text" />
+        </form>
       </div>
-
-
-</center>
-     
-</body>
+    </center>
+  </body>
 </html>
